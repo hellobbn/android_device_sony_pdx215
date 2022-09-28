@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_sony_sm8250-common",
-    "target_path": "device/sony/sm8250-common"
+    "repository": "android_device_sony_sm8350-common",
+    "target_path": "device/sony/sm8350-common"
   }
 ]

@@ -31,6 +31,18 @@ vendor.iop.enable_prefetch_ofr=1
 vendor.iop.enable_uxe=0
 
 # Media
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-scan=true
+media.stagefright.thumbnail.prefer_hw_codecs=true
+mmp.enable.3g2=true
+media.aac_51_output_enabled=true
+vendor.mm.enable.qcom_parser=12091405
+ro.mediacodec.min_sample_rate=7350
+ro.mediacodec.max_sample_rate=2822400
 media.settings.xml=/odm/etc/media_profiles_V1_0.xml
 
 # Perf
@@ -55,7 +67,7 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 # ro.semc.ms_type_id=PM-1281-BV
 # ro.semc.product.device=AU
 # ro.semc.product.model=XQ-AU52
-# ro.semc.product.name=Xperia 1 II
+# ro.semc.product.name=Xperia 1 III
 # ro.semc.version.fs=GENERIC
 # ro.semc.version.fs_revision=59.0.A.8.33
 # ro.semc.version.sw=1311-7920

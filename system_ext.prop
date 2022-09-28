@@ -1,0 +1,5 @@
+# GPS
+persist.backup.ntpServer=0.pool.ntp.org
+
+# RIL
+ril.subscription.types=NV,RUIM
