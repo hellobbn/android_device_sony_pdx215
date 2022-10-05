@@ -22,8 +22,8 @@
 # definition file).
 #
 
-# Inherit from sony sm8250-common
-$(call inherit-product, device/sony/sm8250-common/edo.mk)
+# Inherit from sony sm8350-common
+$(call inherit-product, device/sony/sm8350-common/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
@@ -44,4 +44,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx203/pdx203-vendor.mk)
+$(call inherit-product, vendor/sony/pdx215/pdx215-vendor.mk)

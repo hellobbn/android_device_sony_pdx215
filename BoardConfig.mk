@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
-# Inherit from sony sm8250-common
--include device/sony/sm8250-common/BoardConfigCommon.mk
+# Inherit from sony sm8350-common
+-include device/sony/sm8350-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/pdx203
+DEVICE_PATH := device/sony/pdx215
 
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-BOARD_KERNEL_CMDLINE += buildproduct=pdx203
+BOARD_KERNEL_CMDLINE += buildproduct=pdx215
 
-TARGET_KERNEL_SOURCE := kernel/sony/sm8250
-TARGET_KERNEL_CONFIG := pdx203_defconfig
+TARGET_KERNEL_SOURCE := kernel/sony/sm8350
+TARGET_KERNEL_CONFIG := pdx215_defconfig
 
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE)
@@ -43,4 +43,4 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/sony/pdx203/BoardConfigVendor.mk
+-include vendor/sony/pdx215/BoardConfigVendor.mk
