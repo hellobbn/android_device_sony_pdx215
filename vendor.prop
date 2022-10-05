@@ -226,8 +226,9 @@ persist.vendor.sensors.allow_non_default_discovery=true
 sys.vendor.shutdown.waittime=500
 
 # USB
-vendor.usb.diag.func.name=diag
-vendor.usb.use_ffs_mtp=0
+vendor.usb.diag.func.name=ffs
+vendor.usb.use_ffs_mtp=1
+sys.usb.mtp.batchcancel=1
 
 # Wifi
 wifi.aware.interface=wifi-aware0
