@@ -1,4 +1,4 @@
-# Stock package version: Sony/XQ-AT52/XQ-AT52:12/58.2.A.4.52/058002A004005204241360111:user/release-keys
+# Stock package version: XQ-BC72_Customized SEA_61.1.A.11.88
 
 # Camera
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
