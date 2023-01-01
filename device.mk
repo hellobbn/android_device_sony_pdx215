@@ -39,7 +39,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-   SonyPDX215SystemUIRes
+    SonyPDX215SystemUIRes \
+    SonyPDX215FrameworksRes
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
