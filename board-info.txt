@@ -1,1 +1,1 @@
-require board=lahaina|pdx215
+require board=lahaina|pdx215|XQ-BC72
