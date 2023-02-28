@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    SonyPDX215SystemUIRes
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
