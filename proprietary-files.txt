@@ -1,4 +1,4 @@
-# Stock package version: XQ-BC72_Customized SEA_61.2.A.0.388
+# Stock package version: XQ-BC72_Customized HK_61.2.A.0.396
 
 # Camera
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
