@@ -25,6 +25,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 IS_PHONE := true
+WITH_GMS := true
 
 PRODUCT_NAME := lineage_pdx215
 PRODUCT_DEVICE := pdx215

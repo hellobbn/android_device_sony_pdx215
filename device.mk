@@ -25,6 +25,9 @@
 # Inherit from sony sm8350-common
 $(call inherit-product, device/sony/sm8350-common/common.mk)
 
+# Inherit from Gapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
