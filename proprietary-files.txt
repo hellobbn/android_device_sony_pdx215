@@ -1,4 +1,4 @@
-# Stock package version: XQ-BC72_Customized HK_61.2.A.0.396
+# Stock package version: XQ-BC72_Customized HK_61.2.A.0.410
 
 # ACDB
 vendor/etc/acdbdata/Sony_sagami_Bluetooth_cal.acdb
