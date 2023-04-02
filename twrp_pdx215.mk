@@ -22,12 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
-IS_PHONE := true
-WITH_GMS := true
-
-PRODUCT_NAME := lineage_pdx215
+PRODUCT_NAME := twrp_pdx215
 PRODUCT_DEVICE := pdx215
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
@@ -40,8 +37,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME) \
-    PRIVATE_BUILD_DESC="XQ-BC72-user 13 61.2.A.0.410 061002A000041000046651803 release-keys"
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := Sony/XQ-BC72/XQ-BC72:13/61.2.A.0.410/061002A000041000046651803:user/release-keys
 
